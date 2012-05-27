@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface HandyPurgeAppDelegate : NSObject <NSApplicationDelegate>
+@interface HandyPurgeAppDelegate : NSObject <NSApplicationDelegate> {
+    NSWindow *window;
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem *statusItem;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

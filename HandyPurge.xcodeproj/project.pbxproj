@@ -21,12 +21,12 @@
 		DA6DED7B157249D20020C68B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DA6DED7C157249D20020C68B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DA6DED7D157249D20020C68B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DA6DED80157249D20020C68B /* HandyPurge-Info.plist */ = {isa = PBXFileReference; path = "HandyPurge-Info.plist"; sourceTree = "<group>"; };
+		DA6DED80157249D20020C68B /* HandyPurge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandyPurge-Info.plist"; sourceTree = "<group>"; };
 		DA6DED82157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA6DED84157249D20020C68B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA6DED86157249D20020C68B /* HandyPurge-Prefix.pch */ = {isa = PBXFileReference; path = "HandyPurge-Prefix.pch"; sourceTree = "<group>"; };
+		DA6DED86157249D20020C68B /* HandyPurge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HandyPurge-Prefix.pch"; sourceTree = "<group>"; };
 		DA6DED88157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DA6DED8A157249D20020C68B /* HandyPurgeAppDelegate.h */ = {isa = PBXFileReference; path = HandyPurgeAppDelegate.h; sourceTree = "<group>"; };
+		DA6DED8A157249D20020C68B /* HandyPurgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandyPurgeAppDelegate.h; sourceTree = "<group>"; };
 		DA6DED8B157249D20020C68B /* HandyPurgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandyPurgeAppDelegate.m; sourceTree = "<group>"; };
 		DA6DED8E157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
