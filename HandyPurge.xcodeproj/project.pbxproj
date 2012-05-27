@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6DED79157249D20020C68B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6DED78157249D20020C68B /* Cocoa.framework */; };
+		DA6DED83157249D20020C68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA6DED81157249D20020C68B /* InfoPlist.strings */; };
+		DA6DED85157249D20020C68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DED84157249D20020C68B /* main.m */; };
+		DA6DED89157249D20020C68B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DA6DED87157249D20020C68B /* Credits.rtf */; };
+		DA6DED8C157249D20020C68B /* HandyPurgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DED8B157249D20020C68B /* HandyPurgeAppDelegate.m */; };
+		DA6DED8F157249D20020C68B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6DED8D157249D20020C68B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA6DED74157249D20020C68B /* HandyPurge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyPurge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6DED78157249D20020C68B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA6DED7B157249D20020C68B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA6DED7C157249D20020C68B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA6DED7D157249D20020C68B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA6DED80157249D20020C68B /* HandyPurge-Info.plist */ = {isa = PBXFileReference; path = "HandyPurge-Info.plist"; sourceTree = "<group>"; };
+		DA6DED82157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA6DED84157249D20020C68B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA6DED86157249D20020C68B /* HandyPurge-Prefix.pch */ = {isa = PBXFileReference; path = "HandyPurge-Prefix.pch"; sourceTree = "<group>"; };
+		DA6DED88157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DA6DED8A157249D20020C68B /* HandyPurgeAppDelegate.h */ = {isa = PBXFileReference; path = HandyPurgeAppDelegate.h; sourceTree = "<group>"; };
+		DA6DED8B157249D20020C68B /* HandyPurgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandyPurgeAppDelegate.m; sourceTree = "<group>"; };
+		DA6DED8E157249D20020C68B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6DED71157249D20020C68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6DED79157249D20020C68B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6DED69157249D10020C68B = {
+			isa = PBXGroup;
+			children = (
+				DA6DED7E157249D20020C68B /* HandyPurge */,
+				DA6DED77157249D20020C68B /* Frameworks */,
+				DA6DED75157249D20020C68B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6DED75157249D20020C68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DED74157249D20020C68B /* HandyPurge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6DED77157249D20020C68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DED78157249D20020C68B /* Cocoa.framework */,
+				DA6DED7A157249D20020C68B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6DED7A157249D20020C68B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DED7B157249D20020C68B /* AppKit.framework */,
+				DA6DED7C157249D20020C68B /* CoreData.framework */,
+				DA6DED7D157249D20020C68B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DA6DED7E157249D20020C68B /* HandyPurge */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DED8A157249D20020C68B /* HandyPurgeAppDelegate.h */,
+				DA6DED8B157249D20020C68B /* HandyPurgeAppDelegate.m */,
+				DA6DED8D157249D20020C68B /* MainMenu.xib */,
+				DA6DED7F157249D20020C68B /* Supporting Files */,
+			);
+			path = HandyPurge;
+			sourceTree = "<group>";
+		};
+		DA6DED7F157249D20020C68B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DED80157249D20020C68B /* HandyPurge-Info.plist */,
+				DA6DED81157249D20020C68B /* InfoPlist.strings */,
+				DA6DED84157249D20020C68B /* main.m */,
+				DA6DED86157249D20020C68B /* HandyPurge-Prefix.pch */,
+				DA6DED87157249D20020C68B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6DED73157249D20020C68B /* HandyPurge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6DED92157249D20020C68B /* Build configuration list for PBXNativeTarget "HandyPurge" */;
+			buildPhases = (
+				DA6DED70157249D20020C68B /* Sources */,
+				DA6DED71157249D20020C68B /* Frameworks */,
+				DA6DED72157249D20020C68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyPurge;
+			productName = HandyPurge;
+			productReference = DA6DED74157249D20020C68B /* HandyPurge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6DED6B157249D10020C68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "big-felt.com";
+			};
+			buildConfigurationList = DA6DED6E157249D10020C68B /* Build configuration list for PBXProject "HandyPurge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA6DED69157249D10020C68B;
+			productRefGroup = DA6DED75157249D20020C68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6DED73157249D20020C68B /* HandyPurge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6DED72157249D20020C68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6DED83157249D20020C68B /* InfoPlist.strings in Resources */,
+				DA6DED89157249D20020C68B /* Credits.rtf in Resources */,
+				DA6DED8F157249D20020C68B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6DED70157249D20020C68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6DED85157249D20020C68B /* main.m in Sources */,
+				DA6DED8C157249D20020C68B /* HandyPurgeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA6DED81157249D20020C68B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6DED82157249D20020C68B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA6DED87157249D20020C68B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6DED88157249D20020C68B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DA6DED8D157249D20020C68B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6DED8E157249D20020C68B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA6DED90157249D20020C68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA6DED91157249D20020C68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA6DED93157249D20020C68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyPurge/HandyPurge-Prefix.pch";
+				INFOPLIST_FILE = "HandyPurge/HandyPurge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA6DED94157249D20020C68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyPurge/HandyPurge-Prefix.pch";
+				INFOPLIST_FILE = "HandyPurge/HandyPurge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6DED6E157249D10020C68B /* Build configuration list for PBXProject "HandyPurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6DED90157249D20020C68B /* Debug */,
+				DA6DED91157249D20020C68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6DED92157249D20020C68B /* Build configuration list for PBXNativeTarget "HandyPurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6DED93157249D20020C68B /* Debug */,
+				DA6DED94157249D20020C68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6DED6B157249D10020C68B /* Project object */;
+}
