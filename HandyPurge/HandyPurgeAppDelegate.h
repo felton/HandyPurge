@@ -13,6 +13,7 @@
     NSWindow *window;
     IBOutlet NSMenu *statusMenu;
     NSStatusItem *statusItem;
+    NSImage *menuIcon;
 }
 
 @property (assign) IBOutlet NSWindow *window;

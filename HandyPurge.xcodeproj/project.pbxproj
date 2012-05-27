@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0B1A6F1572526100130B5F /* dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0B1A6E1572526100130B5F /* dashboard.png */; };
 		DA6DED79157249D20020C68B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6DED78157249D20020C68B /* Cocoa.framework */; };
 		DA6DED83157249D20020C68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA6DED81157249D20020C68B /* InfoPlist.strings */; };
 		DA6DED85157249D20020C68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DED84157249D20020C68B /* main.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA0B1A6E1572526100130B5F /* dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard.png; sourceTree = "<group>"; };
 		DA6DED74157249D20020C68B /* HandyPurge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyPurge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6DED78157249D20020C68B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DA6DED7B157249D20020C68B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 			children = (
 				DA6DED80157249D20020C68B /* HandyPurge-Info.plist */,
 				DA6DED81157249D20020C68B /* InfoPlist.strings */,
+				DA0B1A6E1572526100130B5F /* dashboard.png */,
 				DA6DED84157249D20020C68B /* main.m */,
 				DA6DED86157249D20020C68B /* HandyPurge-Prefix.pch */,
 				DA6DED87157249D20020C68B /* Credits.rtf */,
@@ -156,6 +159,7 @@
 				DA6DED83157249D20020C68B /* InfoPlist.strings in Resources */,
 				DA6DED89157249D20020C68B /* Credits.rtf in Resources */,
 				DA6DED8F157249D20020C68B /* MainMenu.xib in Resources */,
+				DA0B1A6F1572526100130B5F /* dashboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				DA6DED94157249D20020C68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

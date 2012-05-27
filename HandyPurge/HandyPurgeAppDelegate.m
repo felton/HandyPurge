@@ -23,4 +23,15 @@
     // Insert code here to initialize your application
 }
 
+-(void)awakeFromNib{
+    statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
+    [statusItem setMenu:statusMenu];
+    
+    //Get image icon from bundle and display it on the status bar
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *bundlePath = [bundle pathForImageResource:@"dashboard.png"];
+    menuIcon = [[NSImage alloc] initWithContentsOfFile:bundlePath];
+    [statusItem setImage:menuIcon];
+    [statusItem setHighlightMode:YES];
+}
 @end
