@@ -15,6 +15,10 @@
 
 - (void)dealloc
 {
+    if(menuIcon != nil){
+        [menuIcon dealloc];
+        NSLog(@"Deallocated the icon");
+    }
     [super dealloc];
 }
 
@@ -33,5 +37,20 @@
     menuIcon = [[NSImage alloc] initWithContentsOfFile:bundlePath];
     [statusItem setImage:menuIcon];
     [statusItem setHighlightMode:YES];
+}
+
+-(IBAction)doPurge:(id)sender{
+    NSString *path = @"/usr/bin/purge";
+    
+    //Launch task
+    NSTask *task = [[NSTask alloc] init];
+    [task setLaunchPath:path];
+    [task launch];
+    [task waitUntilExit]; 
+    
+    int status = [task terminationStatus];
+    NSLog(@"Status: %d", status);
+    
+    [task release];
 }
 @end
