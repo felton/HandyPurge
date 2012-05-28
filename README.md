@@ -11,7 +11,6 @@ Handy Purge lives in the status bar and has a small menu, so execution is simple
 
 Soon I hope to add the ability to run the app on startup
 
-### Credits
-Made by [me](http://github.com/felton)
+---------
 
 Dashboard icon by [Symbolicons](http://symbolicons.com)
