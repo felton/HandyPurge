@@ -7,9 +7,11 @@ Running purge frees up memory that might have been held up and not released once
 
 Handy Purge lives in the status bar and has a small menu, so execution is simple.
 
-### TODOs
+### TODO:
 
-Soon I hope to add the ability to run the app on startup
+* Ability to run the app on startup
+* Changing the icon while memory is purged
+* Give the app an icon
 
 ---------
 
