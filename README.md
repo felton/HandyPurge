@@ -15,4 +15,4 @@ Handy Purge lives in the status bar and has a small menu, so execution is simple
 
 ---------
 
-Dashboard icon by [Symbolicons](http://symbolicons.com)
+Gauge icon by [The Noun Project](http://thenounproject.com/noun/gauge/#icon-No1969)
