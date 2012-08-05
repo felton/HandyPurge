@@ -33,7 +33,7 @@
     
     //Get image icon from bundle and display it on the status bar
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *bundlePath = [bundle pathForImageResource:@"dashboard.png"];
+    NSString *bundlePath = [bundle pathForImageResource:@"gauge_menu.icns"];
     menuIcon = [[NSImage alloc] initWithContentsOfFile:bundlePath];
     [statusItem setImage:menuIcon];
     [statusItem setHighlightMode:YES];
